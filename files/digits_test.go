@@ -85,3 +85,12 @@ func TestSeven(t *testing.T) {
     assert.Equal(t, expected, digit(7))
 }
 
+func TestEight(t *testing.T) {
+    expected := number{
+        " _ ",
+        "|_|",
+        "|_|",
+    }
+    
+    assert.Equal(t, expected, digit(8))
+}
