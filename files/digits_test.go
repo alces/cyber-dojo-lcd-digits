@@ -13,4 +13,12 @@ func TestDigit(t *testing.T) {
     }
 
     assert.Equal(t, zero, digit(0))
+    
+    one := number{
+        "   ",
+        "  |",
+        "  |",
+    }
+    
+    assert.Equal(t, one, digit(1))
 }
