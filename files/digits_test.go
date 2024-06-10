@@ -24,3 +24,13 @@ func TestOne(t *testing.T) {
     
     assert.Equal(t, expected, digit(1))
 }
+
+func TestTwo(t *testing.T) {
+    expected := number{
+        " _ ",
+        " _|",
+        "|_ ",
+    }
+    
+    assert.Equal(t, expected, digit(2))
+}
