@@ -283,5 +283,21 @@
       18,
       252
     ]
+  },
+  {
+    "duration": 6.432248,
+    "colour": "green",
+    "predicted": "green",
+    "revert_if_wrong": "off",
+    "index": 18,
+    "time": [
+      2024,
+      6,
+      10,
+      9,
+      32,
+      53,
+      585513
+    ]
   }
 ]
