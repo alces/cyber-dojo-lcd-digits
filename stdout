@@ -1,2 +1,23 @@
-PASS
-ok  	_/sandbox	0.002s
+--- FAIL: TestThree (0.00s)
+    digits_test.go:45: 
+        	Error Trace:	digits_test.go:45
+        	Error:      	Not equal: 
+        	            	expected: lcd.number{" _ ", " _|", " _|"}
+        	            	actual  : lcd.number{"", "", ""}
+        	            	
+        	            	Diff:
+        	            	--- Expected
+        	            	+++ Actual
+        	            	@@ -1,5 +1,5 @@
+        	            	 (lcd.number) (len=3) {
+        	            	- (string) (len=3) " _ ",
+        	            	- (string) (len=3) " _|",
+        	            	- (string) (len=3) " _|"
+        	            	+ (string) "",
+        	            	+ (string) "",
+        	            	+ (string) ""
+        	            	 }
+        	Test:       	TestThree
+FAIL
+exit status 1
+FAIL	_/sandbox	0.006s

@@ -34,3 +34,13 @@ func TestTwo(t *testing.T) {
     
     assert.Equal(t, expected, digit(2))
 }
+
+func TestThree(t *testing.T) {
+    expected := number{
+        " _ ",
+        " _|",
+        " _|",
+    }
+    
+    assert.Equal(t, expected, digit(3))
+}
