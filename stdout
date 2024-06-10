@@ -1,0 +1,23 @@
+--- FAIL: TestDigit (0.00s)
+    digits_test.go:15: 
+        	Error Trace:	digits_test.go:15
+        	Error:      	Not equal: 
+        	            	expected: [3]string{" _ ", "| |", "|_|"}
+        	            	actual  : [3]string{"", "", ""}
+        	            	
+        	            	Diff:
+        	            	--- Expected
+        	            	+++ Actual
+        	            	@@ -1,5 +1,5 @@
+        	            	 ([3]string) (len=3) {
+        	            	- (string) (len=3) " _ ",
+        	            	- (string) (len=3) "| |",
+        	            	- (string) (len=3) "|_|"
+        	            	+ (string) "",
+        	            	+ (string) "",
+        	            	+ (string) ""
+        	            	 }
+        	Test:       	TestDigit
+FAIL
+exit status 1
+FAIL	_/sandbox	0.012s

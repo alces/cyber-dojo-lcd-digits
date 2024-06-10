@@ -11,5 +11,21 @@
       10,
       113031
     ]
+  },
+  {
+    "duration": 10.207364,
+    "colour": "red",
+    "predicted": "red",
+    "revert_if_wrong": "off",
+    "index": 1,
+    "time": [
+      2024,
+      6,
+      10,
+      8,
+      35,
+      45,
+      41896
+    ]
   }
 ]
