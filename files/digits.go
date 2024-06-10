@@ -34,6 +34,12 @@ func digit(num int) (result number) {
             "|_|",
             "  |",
         }
+    case 5:
+        result = number{
+            " _ ",
+            "|_ ",
+            " _|",
+        }
     }
     
     return result
