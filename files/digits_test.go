@@ -44,3 +44,14 @@ func TestThree(t *testing.T) {
     
     assert.Equal(t, expected, digit(3))
 }
+
+func TestFour(t *testing.T) {
+    expected := number{
+        "   ",
+        "|_|",
+        "  |",
+    }
+    
+    assert.Equal(t, expected, digit(4))
+}
+
