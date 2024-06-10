@@ -1,9 +1,11 @@
 package lcd
 
-func digit(num int) (result [3]string) {
+type number [3]string
+
+func digit(num int) (result number) {
     switch(num) {
     case 0:
-        result = [3]string{
+        result = number{
             " _ ",
             "| |",
             "|_|",

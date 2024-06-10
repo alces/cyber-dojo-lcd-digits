@@ -6,7 +6,7 @@ import (
 )
 
 func TestDigit(t *testing.T) {
-    zero := [3]string{
+    zero := number{
         " _ ",
         "| |",
         "|_|",
