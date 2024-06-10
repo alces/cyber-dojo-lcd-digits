@@ -5,20 +5,22 @@ import (
     "github.com/stretchr/testify/assert"
 )
 
-func TestDigit(t *testing.T) {
-    zero := number{
+func TestZero(t *testing.T) {
+    expected := number{
         " _ ",
         "| |",
         "|_|",
     }
 
-    assert.Equal(t, zero, digit(0))
-    
-    one := number{
+    assert.Equal(t, expected, digit(0))
+}
+
+func TestOne(t *testing.T) {
+    expected := number{
         "   ",
         "  |",
         "  |",
     }
     
-    assert.Equal(t, one, digit(1))
+    assert.Equal(t, expected, digit(1))
 }
