@@ -1,3 +1,2 @@
 # _/sandbox [_/sandbox.test]
-./numbers.go:31:26: head > 0 (untyped bool value) is not used
-./numbers.go:32:9: head declared but not used
+./numbers.go:31:46: syntax error: cannot declare in post statement of for loop
