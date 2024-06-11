@@ -30,6 +30,6 @@ func TestJoin(t *testing.T) {
         "  | |_   _|",
     }
     
-    assert.Equal(t, expected, join(argument), "423")
+    assert.Equal(t, expected, join(arguments), "423")
 }
     

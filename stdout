@@ -1,1 +1,24 @@
-FAIL	_/sandbox [build failed]
+--- FAIL: TestJoin (0.00s)
+    numbers_test.go:33: 
+        	Error Trace:	numbers_test.go:33
+        	Error:      	Not equal: 
+        	            	expected: lcd.number{"     _   _", "|_|  _|  _|", "  | |_   _|"}
+        	            	actual  : lcd.number{"", "", ""}
+        	            	
+        	            	Diff:
+        	            	--- Expected
+        	            	+++ Actual
+        	            	@@ -1,5 +1,5 @@
+        	            	 (lcd.number) (len=3) {
+        	            	- (string) (len=10) "     _   _",
+        	            	- (string) (len=11) "|_|  _|  _|",
+        	            	- (string) (len=11) "  | |_   _|"
+        	            	+ (string) "",
+        	            	+ (string) "",
+        	            	+ (string) ""
+        	            	 }
+        	Test:       	TestJoin
+        	Messages:   	423
+FAIL
+exit status 1
+FAIL	_/sandbox	0.002s
