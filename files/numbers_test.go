@@ -32,4 +32,7 @@ func TestJoin423(t *testing.T) {
     
     assert.Equal(t, expected, join(arguments), "423")
 }
-    
+
+func TestJoinEmpty(t *testing.T) {
+    assert.Equal(t, number{}, join([]number{}), "empty number")
+}
