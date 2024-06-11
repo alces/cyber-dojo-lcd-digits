@@ -5,7 +5,7 @@ import (
     "github.com/stretchr/testify/assert"
 )
 
-func TestJoin(t *testing.T) {
+func TestJoin423(t *testing.T) {
     arguments := []number{
         {
             "   ",
