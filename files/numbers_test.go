@@ -63,3 +63,7 @@ func TestRow(t *testing.T) {
     
     assert.Equal(t, expected, row(digits423, 1), "middle row of 423")
 }
+
+func TestSplitNumber(t *testing.T) {
+    assert.Equal(t, []int{5}, splitNumber(5))
+}
