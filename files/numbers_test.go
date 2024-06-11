@@ -12,6 +12,7 @@ var chopTailResults = []struct{
 } {
     {5, 0, 5},
     {17, 1, 7},
+    {590, 59, 0},
 }
 
 func TestChopTail(t *testing.T) {   
