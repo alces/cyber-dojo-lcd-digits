@@ -37,7 +37,7 @@ func TestJoinEmpty(t *testing.T) {
     assert.Equal(t, number{}, join([]number{}), "empty number")
 }
 
-func TestRow(t, *testing.T) {
+func TestRow(t *testing.T) {
     expected := []string{
         "|_|", " _|", " _|",
     }

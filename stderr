@@ -1,2 +1,0 @@
-# _/sandbox
-/sandbox/numbers_test.go:40:1: wrong signature for TestRow, must be: func TestRow(t *testing.T)
