@@ -23,10 +23,6 @@ func row(digits []number, index int) []string {
     return result
 }
 
-func chopTail(number int) (head, tail int) {
-    return number/10, number%10
-}
-
 func splitNumber(number int) (result []int) {
     for head := number; head > 0; head /= 10 {
         result = append([]int{head%10}, result...)

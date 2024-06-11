@@ -5,25 +5,6 @@ import (
     "github.com/stretchr/testify/assert"
 )
 
-var chopTailResults = []struct{
-    argument int
-    head     int
-    tail     int
-} {
-    {5, 0, 5},
-    {17, 1, 7},
-    {590, 59, 0},
-}
-
-func TestChopTail(t *testing.T) {   
-    for _, r := range chopTailResults {
-        actualHead, actualTail := chopTail(r.argument)
-
-        assert.Equal(t, r.head, actualHead, "unexpected head")
-        assert.Equal(t, r.tail, actualTail, "unexpected tail")
-    }
-}
-
 var digits423 = []number{
     {
         "   ",
