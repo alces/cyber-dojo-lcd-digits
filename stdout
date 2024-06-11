@@ -1,22 +1,2 @@
---- FAIL: TestRow (0.00s)
-    numbers_test.go:45: 
-        	Error Trace:	numbers_test.go:45
-        	Error:      	Not equal: 
-        	            	expected: []string{"|_|", " _|", " _|"}
-        	            	actual  : []string{}
-        	            	
-        	            	Diff:
-        	            	--- Expected
-        	            	+++ Actual
-        	            	@@ -1,5 +1,2 @@
-        	            	-([]string) (len=3) {
-        	            	- (string) (len=3) "|_|",
-        	            	- (string) (len=3) " _|",
-        	            	- (string) (len=3) " _|"
-        	            	+([]string) {
-        	            	 }
-        	Test:       	TestRow
-        	Messages:   	middle row of 423
-FAIL
-exit status 1
-FAIL	_/sandbox	0.008s
+PASS
+ok  	_/sandbox	0.008s

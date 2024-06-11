@@ -20,5 +20,12 @@ func join(digits []number) (result number) {
 }
 
 func row(digits []number, index int) []string {
-    return []string{}
+    numDigits := len(digits)
+    row := make([]string, numDigits)
+    
+    for i := 0; i < numDigits; i++ {
+        row[i] = digits[i][index]
+    }
+    
+    return row
 }
