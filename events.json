@@ -651,5 +651,21 @@
       41,
       124107
     ]
+  },
+  {
+    "duration": 6.226784,
+    "colour": "amber",
+    "predicted": "green",
+    "revert_if_wrong": "off",
+    "index": 41,
+    "time": [
+      2024,
+      6,
+      11,
+      13,
+      42,
+      33,
+      902456
+    ]
   }
 ]

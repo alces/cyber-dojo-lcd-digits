@@ -27,6 +27,14 @@ func chopTail(number int) (head, tail int) {
     return number/10, number%10
 }
 
-func splitNumber(number int) []int {
-    return []int{}
+func splitNumber(number int) (result []int) {
+    remainder = number
+    
+    for remainder > 0 {
+        head, tail := chopTail(remainder)
+        result = append(result, tail)
+        remainder = head
+    }
+    
+    return
 }

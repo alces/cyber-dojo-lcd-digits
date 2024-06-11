@@ -1,0 +1,5 @@
+# _/sandbox [_/sandbox.test]
+./numbers.go:31:5: undefined: remainder
+./numbers.go:33:9: undefined: remainder
+./numbers.go:34:32: undefined: remainder
+./numbers.go:36:9: undefined: remainder
