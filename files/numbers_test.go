@@ -64,6 +64,16 @@ func TestRow(t *testing.T) {
     assert.Equal(t, expected, row(digits423, 1), "middle row of 423")
 }
 
+var splitNumberResults = []struct{
+    argument int
+    expected []int
+} {
+    {5, []int{5}},
+    {17, []int{1, 7}},
+}
+
 func TestSplitNumber(t *testing.T) {
-    assert.Equal(t, []int{5}, splitNumber(5))
+    for _, r := range splitNumberResults {
+        assert.Equal(t, r.expected, splitNumber(r.argument), r.argument)
+    }    
 }

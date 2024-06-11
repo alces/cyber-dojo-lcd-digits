@@ -1,2 +1,22 @@
-PASS
-ok  	_/sandbox	0.003s
+--- FAIL: TestSplitNumber (0.00s)
+    numbers_test.go:77: 
+        	Error Trace:	numbers_test.go:77
+        	Error:      	Not equal: 
+        	            	expected: []int{1, 7}
+        	            	actual  : []int{7, 1}
+        	            	
+        	            	Diff:
+        	            	--- Expected
+        	            	+++ Actual
+        	            	@@ -1,4 +1,4 @@
+        	            	 ([]int) (len=2) {
+        	            	- (int) 1,
+        	            	- (int) 7
+        	            	+ (int) 7,
+        	            	+ (int) 1
+        	            	 }
+        	Test:       	TestSplitNumber
+        	Messages:   	17
+FAIL
+exit status 1
+FAIL	_/sandbox	0.003s
