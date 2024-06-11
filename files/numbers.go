@@ -28,10 +28,9 @@ func chopTail(number int) (head, tail int) {
 }
 
 func splitNumber(number int) (result []int) {    
-    for number > 0 {
-        head, tail := chopTail(number)
+    for head := number;; head > 0 {
+        head, tail := chopTail(head)
         result = append([]int{tail}, result...)
-        number = head
     }
     
     return
