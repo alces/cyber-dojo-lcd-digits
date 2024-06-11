@@ -5,9 +5,6 @@ import (
 )
 
 func join(digits []number) (result number) {
-    numDigits := len(digits)
-    row := make([]string, numDigits)
-    
     for i := 0; i < len(result); i++ {
         result[i] = strings.Join(row(digits, i), " ")
     }
@@ -17,11 +14,11 @@ func join(digits []number) (result number) {
 
 func row(digits []number, index int) []string {
     numDigits := len(digits)
-    row := make([]string, numDigits)
+    result := make([]string, numDigits)
     
     for i := 0; i < numDigits; i++ {
-        row[i] = digits[i][index]
+        result[i] = digits[i][index]
     }
     
-    return row
+    return result
 }
