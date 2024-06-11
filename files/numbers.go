@@ -24,5 +24,5 @@ func row(digits []number, index int) []string {
 }
 
 func chopTail(number int) (head, tail int) {
-    return
+    return number/10, number%10
 }

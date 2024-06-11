@@ -1,11 +1,2 @@
---- FAIL: TestChopTail (0.00s)
-    numbers_test.go:13: 
-        	Error Trace:	numbers_test.go:13
-        	Error:      	Not equal: 
-        	            	expected: 5
-        	            	actual  : 0
-        	Test:       	TestChopTail
-        	Messages:   	unexpected tail
-FAIL
-exit status 1
-FAIL	_/sandbox	0.007s
+PASS
+ok  	_/sandbox	0.007s
