@@ -25,7 +25,7 @@ func TestJoin(t *testing.T) {
     }
     
     expected := number{
-        "     _   _",
+        "     _   _ ",
         "|_|  _|  _|",
         "  | |_   _|",
     }
