@@ -18,3 +18,7 @@ func join(digits []number) (result number) {
     
     return
 }
+
+func row(digits []number, index int) []string {
+    return []string{}
+}
