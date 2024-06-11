@@ -9,11 +9,7 @@ func join(digits []number) (result number) {
     row := make([]string, numDigits)
     
     for i := 0; i < len(result); i++ {
-        for j := 0; j < numDigits; j++ {
-            row[j] = digits[j][i]
-        }
-        
-        result[i] = strings.Join(row, " ")
+        result[i] = strings.Join(row(digits, i), " ")
     }
     
     return

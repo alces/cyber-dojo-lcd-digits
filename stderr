@@ -1,0 +1,2 @@
+# _/sandbox [_/sandbox.test]
+./numbers.go:12:34: invalid operation: cannot call non-function row (variable of type []string)
