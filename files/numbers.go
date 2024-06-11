@@ -28,12 +28,11 @@ func chopTail(number int) (head, tail int) {
 }
 
 func splitNumber(number int) (result []int) {
-    remainder = number
+    head := number
     
-    for remainder > 0 {
+    for head > 0 {
         head, tail := chopTail(remainder)
         result = append(result, tail)
-        remainder = head
     }
     
     return
