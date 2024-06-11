@@ -1,5 +1,20 @@
 package lcd
 
-func join(digits []number) number {
-    return number{}
+import (
+    "strings"
+)
+
+func join(digits []number) (result number) {
+    numDigits := len(digits)
+    row := make([]string, numDigits)
+    
+    for i := 0; i < len(result); i++ {
+        for j := 0; j < numDigits; j++ {
+            row[j] = digits[j][i]
+        }
+        
+        result[i] = strings.Join(row, " ")
+    }
+    
+    return
 }
