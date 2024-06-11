@@ -70,6 +70,7 @@ var splitNumberResults = []struct{
 } {
     {5, []int{5}},
     {17, []int{1, 7}},
+    {130, []int{1, 3, 0}},
 }
 
 func TestSplitNumber(t *testing.T) {
