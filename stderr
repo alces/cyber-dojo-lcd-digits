@@ -1,3 +1,0 @@
-# _/sandbox [_/sandbox.test]
-./numbers.go:33:34: syntax error: unexpected {, expecting semicolon or newline
-./numbers.go:34:36: syntax error: unexpected newline, expecting { after for clause
