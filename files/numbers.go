@@ -30,7 +30,7 @@ func chopTail(number int) (head, tail int) {
 func splitNumber(number int) (result []int) {    
     for number > 0 {
         head, tail := chopTail(number)
-        result = append(result, tail)
+        result = append([]int{tail}, result...)
         number = head
     }
     
