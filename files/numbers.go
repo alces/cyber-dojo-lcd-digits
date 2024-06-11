@@ -31,7 +31,7 @@ func splitNumber(number int) (result []int) {
     head := number
     
     for head > 0 {
-        head, tail := chopTail(remainder)
+        head, tail := chopTail(head)
         result = append(result, tail)
     }
     
