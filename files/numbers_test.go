@@ -5,6 +5,14 @@ import (
     "github.com/stretchr/testify/assert"
 )
 
+
+func TestChopTail(t *testing.T) {
+    head, tail := chopTail(5)
+
+    assert.Equal(t, 0, head, "unexpected head")
+    assert.Equal(t, 5, tail, "unexpected tail")
+}
+
 var digits423 = []number{
     {
         "   ",

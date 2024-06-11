@@ -22,3 +22,7 @@ func row(digits []number, index int) []string {
     
     return result
 }
+
+func chopTail(number int) (head, tail int) {
+    return
+}
