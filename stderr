@@ -1,2 +1,0 @@
-# _/sandbox [_/sandbox.test]
-./numbers.go:10:25: cannot use n (variable of type number) as type []string in argument to strings.Join
