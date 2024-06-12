@@ -5,10 +5,17 @@ import (
     "github.com/stretchr/testify/assert"
 )
 
+var digitsTestResults = []struct{
+    argument int
+    expected string
+} {
+    {1, "   \n"+
+        "  |\n"+
+        "  |"},
+}
+
 func TestDigits(t *testing.T) {
-    expected := "   \n"+
-                "  |\n"+
-                "  |"
-    
-    assert.Equal(t, expected, Digits(1), "one")
+    for _, r := range digitsTestResults {    
+        assert.Equal(t, r.expected, Digits(r.argument), r.argument)
+    }    
 }
