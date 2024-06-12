@@ -1,7 +1,7 @@
 package lcd
 
-func Digits(number int) string {
-    integers := splitNumber(number)
+func Digits(num int) string {
+    integers := splitNumber(num)
     size := len(integers)
     digits := make([]number, size)
     
