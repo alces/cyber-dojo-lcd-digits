@@ -14,7 +14,7 @@ func (n number) String() string {
         buffer[i] = n[i]
     }
     
-    return strings.Join(buffer, "\n")
+    return strings.Join(n[:], "\n")
 }
 
 func join(digits []number) (result number) {
