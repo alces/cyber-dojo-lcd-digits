@@ -7,7 +7,7 @@ import (
 type number [3]string
 
 func (n number) String() string {
-    return ""
+    return strings.Join(n, "\n")
 }
 
 func join(digits []number) (result number) {
