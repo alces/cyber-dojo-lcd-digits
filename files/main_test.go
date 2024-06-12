@@ -12,6 +12,9 @@ var digitsTestResults = []struct{
     {1, "   \n"+
         "  |\n"+
         "  |"},
+    {42, "     _ \n",
+         "|_|  _|\n",
+         "  | |_ "},
 }
 
 func TestDigits(t *testing.T) {
