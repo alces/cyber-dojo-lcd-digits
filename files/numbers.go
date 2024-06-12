@@ -6,6 +6,10 @@ import (
 
 type number [3]string
 
+func (n number) String() string {
+    return ""
+}
+
 func join(digits []number) (result number) {
     for i := 0; i < len(result); i++ {
         result[i] = strings.Join(row(digits, i), " ")
