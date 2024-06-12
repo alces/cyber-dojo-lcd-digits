@@ -7,13 +7,6 @@ import (
 type number [3]string
 
 func (n number) String() string {
-    height := len(n)
-    buffer := make([]string, height)
-    
-    for i := 0; i < height; i++ {
-        buffer[i] = n[i]
-    }
-    
     return strings.Join(n[:], "\n")
 }
 
