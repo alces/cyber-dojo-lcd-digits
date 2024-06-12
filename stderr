@@ -1,2 +1,2 @@
 # _/sandbox [_/sandbox.test]
-./main.go:6:22: digit (value of type func(num int) (result number)) is not a type
+./main.go:6:22: number (variable of type int) is not a type
